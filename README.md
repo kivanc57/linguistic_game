@@ -35,6 +35,24 @@ python linguistic_game/main.py
 3. Follow the on-screen prompts to navigate, fight enemies, and enjoy the game.
 
 ## Project Structure
+
+```markdown
+📁 project-root
+├── 📁 config
+│ ├── 📄 __init__.py
+│ └── 📄 constants.py
+│
+├── 📁 src
+│ ├── 📄 __init__.py
+│ ├── 📄 gameplay.py
+│ ├── 📄 mechanics.py
+│ └── 📄 map_utils.py
+│
+├── 📄 .gitignore
+├── 📄 .gitattributes
+└── 📄 main.py
+```
+
 * **config/**: Contains configuration files.
   * ***\__init__.py***: Imports constants for game configuration.
   * ***constants.py***: Defines constants used throughout the game.
@@ -47,10 +65,10 @@ python linguistic_game/main.py
 
 * **.gitignore**: Specifies files and directories to be ignored by Git (e.g., virtual environments, build artifacts).
 * **.gitattributes**: Ensures consistent line endings across different operating systems in the repository.
+* * **main.py**: The entry point of the game. It initializes game settings, generates the map, places entities, and starts the game loop. It handles player movement, enemy encounters, and displays the game state.
 
 ## Code Example
 ### Main Game Loop
-* **main.py**: The entry point of the game. It initializes game settings, generates the map, places entities, and starts the game loop. It handles player movement, enemy encounters, and displays the game state.
 ```
 from config.constants import (
   HEALTH_CONSTANT, SIZE_CONSTANT, AMOUNT_CONSTANTS,
