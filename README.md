@@ -20,6 +20,9 @@ cd linguistic_game
 ```
 
 3. Install any required dependencies (if applicable).
+```
+pip install -r requirements.txt
+```
 
 ## Usage  
 1. Ensure you have Python 3.x installed.
