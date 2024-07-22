@@ -9,11 +9,15 @@
 * **Interactive Gameplay:** Move around the grid, encounter enemies, and interact with barriers.
 
 ## Installation
-1. Clone the repository:  
-`git clone https://github.com/yourusername/linguistic_game.git`
+1. Clone the repository: 
+```
+git clone https://github.com/yourusername/linguistic_game.git
+```
 
 2. Navigate to the project directory:  
-`cd linguistic_game`
+```
+cd linguistic_game
+```
 
 3. Install any required dependencies (if applicable).
 
@@ -21,7 +25,9 @@
 1. Ensure you have Python 3.x installed.
 
 2. Run the game by executing:
-`python linguistic_game/main.py`  
+```
+python linguistic_game/main.py 
+```
 
 3. Follow the on-screen prompts to navigate, fight enemies, and enjoy the game.
 
