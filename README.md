@@ -9,17 +9,17 @@
 * **Interactive Gameplay:** Move around the grid, encounter enemies, and interact with barriers.
 
 ## Installation
-1. Clone the repository: 
+1. **Clone the repository**: 
 ```
 git clone https://github.com/yourusername/linguistic_game.git
 ```
 
-2. Navigate to the project directory:  
+2. **Navigate to the project directory**:  
 ```
 cd linguistic_game
 ```
 
-3. Install any required dependencies (if applicable).
+3. **Install any required dependencies (if applicable)**.
 ```
 pip install -r requirements.txt
 ```
@@ -60,7 +60,6 @@ python linguistic_game/main.py
 For the complete code, check out the [main.py file](https://github.com/kgordu/linguistic_game/blob/main/main.py) in the repository.
 
 ## Contact
-
 Let me know if there are any specific details you’d like to adjust or additional sections you want to include!  
 * **Email**: kivancgordu@hotmail.com
 * **Version**: 1.0.0
