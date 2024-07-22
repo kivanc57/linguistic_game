@@ -49,3 +49,10 @@
 **main.py**: The entry point of the game. It initializes game settings, generates the map, places entities, and starts the game loop. It handles player movement, enemy encounters, and displays the game state.
 
 For the complete code, check out the [main.py file](https://github.com/kgordu/linguistic_game/blob/main/main.py) in the repository.
+
+## Contact
+
+Let me know if there are any specific details you’d like to adjust or additional sections you want to include!  
+* **Email**: kivancgordu@hotmail.com
+* **Version**: 1.0.0
+* **Date**: 22-06-2024
