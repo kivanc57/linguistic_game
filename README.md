@@ -36,18 +36,16 @@
   * ***mechanics.py***: Handles player movement and combat mechanics.
   * ***map_utils.py***: Provides functions for generating and placing entities on the map.
 
+* **.gitignore**: Specifies files and directories to be ignored by Git (e.g., virtual environments, build artifacts).
+* **.gitattributes**: Ensures consistent line endings across different operating systems in the repository.
+
 ## Code Example
 * **Map Generation**: Uses **get_map** to initialize a grid filled with spaces.
 * **Entity Placement**: **enumerate_amounts** assigns entities to random coordinates.
 * **Movement**: **make_movement** handles user input for moving and fighting.
 * **Combat**: **fight** resolves battles based on vowel counts in user input.
 
-## Contributing
-Feel free to contribute to the project by submitting issues, feature requests, or pull requests.
+## Code Example
+**main.py**: The entry point of the game. It initializes game settings, generates the map, places entities, and starts the game loop. It handles player movement, enemy encounters, and displays the game state.
 
-## Contact
-For any inquiries, yoou can rach me at kivancgordu@hotmail.com.
-
-## Changelog
-### v1.0.0 (22-06-2024)
-* Initial release with basic game functionality.
+For the complete code, check out the [main.py file](https://github.com/kgordu/linguistic_game/blob/main/main.py) in the repository.
