@@ -1,0 +1,26 @@
+Hello, Player! The game is ready..
+
+We want you to enter a direction to move through the map..
+There are only four options:
+
+				 W: UP
+		    
+			A: LEFT     	D: RIGHT
+
+				S: DOWN
+			
+RULES:
+1- You cannot go beyond the borders.
+2- You cannot go through the barriers.
+3- You must fight and defeat all the enemies to win.
+
+DURING THE FIGHT:
+1- A random number will be generated between 1 and 6.
+2- You will be asked to give a word.
+3- You loose health as absolue value of (magic_number - count_vowels) * 6
+each turn unless you defeat the enemy or die.
+4- If you win th fight, you be invited to explore the map and move.
+
+
+
+		({ { { G O O D      L U C K } } })
