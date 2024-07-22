@@ -68,8 +68,14 @@ python linguistic_game/main.py
 * * **main.py**: The entry point of the game. It initializes game settings, generates the map, places entities, and starts the game loop. It handles player movement, enemy encounters, and displays the game state.
 
 ## Code Example
+
+* **Map Generation**: Uses `get_map` to initialize a grid filled with spaces.
+* **Entity Placement**: `enemurate_amounts` assigns entities to random coordinates.
+* **Movement**: `make_movement` handles user input for moving and fighting.
+* **Combat**: `fight` resolves battles based on vowel counts in user input.
+  
 ### Main Game Loop
-```
+```python
 from config.constants import (
   HEALTH_CONSTANT, SIZE_CONSTANT, AMOUNT_CONSTANTS,
   ENTITY_CONSTANTS, SPATIAL_CONSTANTS, TEXT_DIR, TEXT_F_NAME
@@ -117,11 +123,6 @@ if __name__ == "__main__":
     main()
 
 ```
-
-* **Map Generation**: Uses **get_map** to initialize a grid filled with spaces.
-* **Entity Placement**: **enumerate_amounts** assigns entities to random coordinates.
-* **Movement**: **make_movement** handles user input for moving and fighting.
-* **Combat**: **fight** resolves battles based on vowel counts in user input.
 
 For the complete code, check out the [main.py file](https://github.com/kgordu/linguistic_game/blob/main/main.py) in the repository.
 
