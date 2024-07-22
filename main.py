@@ -3,9 +3,9 @@ from config.constants import (
   ENTITY_CONSTANTS, SPATIAL_CONSTANTS, TEXT_DIR, TEXT_F_NAME
 )
 
-from game_module.gameplay import print_game, count_enemies
-from game_module.map_utils import get_map, read_print_intro, enumerate_amounts, place_entities
-from game_module.mechanics import make_movement
+from src.gameplay import print_game, count_enemies
+from src.map_utils import get_map, read_print_intro, enumerate_amounts, place_entities
+from src.mechanics import make_movement
 
 def main():
     health = HEALTH_CONSTANT
