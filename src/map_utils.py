@@ -15,7 +15,7 @@ def read_print_intro(intro_text_dir, intro_text_file):
     try:
         project_dir = dirname(abspath(__file__))
         full_path = join(project_dir, intro_text_dir, intro_text_file)
-        with open(full_path, 'r') as file:
+        with open(full_path, mode="r", encoding="utf-8") as file:
             print(file.read())
     except FileNotFoundError:
         print("Introduction text not found.")
