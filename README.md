@@ -126,6 +126,12 @@ if __name__ == "__main__":
 
 For the complete code, check out the [main.py file](https://github.com/kgordu/linguistic_game/blob/main/main.py) in the repository.
 
+## License
+
+This project is licensed under the GNU General Public License v3.0 (GPL-3.0) - see the [LICENSE](https://github.com/kivanc57/linguistic_game/blob/main/LICENSE) file for details.
+
+
+
 ## Contact
 Let me know if there are any specific details you’d like to adjust or additional sections you want to include!  
 * **Email**: kivancgordu@hotmail.com
