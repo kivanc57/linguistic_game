@@ -1,12 +1,17 @@
 # Linguistic Game  
 
-## Overview
+## Overview 👀
 **Linguistic Game** is a turn-based text-based game where the player navigates through a grid, encounters enemies, and engages in battles using a word-based combat system. The game features dynamic map generation and interactive gameplay, providing a unique experience with each playthrough.
 
 ## Features
-* **Dynamic Map Generation:** Create a grid-based map with barriers, enemies, and player positions.
-* **Combat System:** Engage enemies in battle using a word-based system where the number of vowels in the input word affects the outcome.
-* **Interactive Gameplay:** Move around the grid, encounter enemies, and interact with barriers.
+🌐 **Dynamic Map Generation** 🌐
+  * Create a grid-based map with barriers, enemies, and player positions.
+    
+🤖 **Combat System** 🤖
+  * Engage enemies in battle using a word-based system where the number of vowels in the input word affects the outcome.
+
+💻 **Interactive Gameplay** 💻
+  * Move around the grid, encounter enemies, and interact with barriers.
 
 ## Installation
 1. **Clone the repository**: 
