@@ -18,6 +18,7 @@ README.md
 .gitattributes
 .gitignore
 .github/
+.circleci
 
 # Editor directories and files
 .idea/

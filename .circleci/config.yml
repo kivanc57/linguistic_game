@@ -1,0 +1,68 @@
+version: 2.1
+
+executors:
+  docker-executors:
+    docker:
+      - image: circleci/python:3.12-slim
+    working_directory: ~/repo
+
+jobs:
+  prepare:
+    docker:
+      - image: circleci/python:3.12-slim
+    steps:
+      - checkout
+
+      - run:
+          name: Set up QEMU
+          command: |
+            echo $DOCKERHUB_TOKEN | docker login -u $DOCKERHUB_USERNAME --password-stdin
+  
+  build:
+    docker:
+      - image: circleci/python:3.12-slim
+    steps:
+      - checkout
+      - setup_remote_docker:
+          docker_layer_caching: false
+
+      - run:
+          name: Build Docker Image
+          command: |
+            docker build -t kivanc57/linguistic_game:latest .
+  
+  # test:
+  #   docker:
+  #     - image: kivanc57/linguistic_game:latest
+  #   steps:
+  #     - run:
+  #         name: Test Docker Image
+  #         command: docker run --rm kivanc57/linguistic_game:latest <some-test-command>
+
+  deploy:
+    docker:
+      - image: circleci/python:3.12-slim
+    steps:
+      - checkout
+
+      - run:
+          name: Push Docker Image
+          command: |
+            docker push kivanc57/linguistic_game:latest
+
+workflows:
+  version: 2
+  build_and_deploy:
+    jobs:
+    - prepare
+    - build:
+        requires:
+          - prepare
+
+    # - test:
+    #   requires:
+    #     - build
+
+    - deploy:
+        requires:
+          - build
