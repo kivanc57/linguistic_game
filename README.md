@@ -1,4 +1,4 @@
-# Linguistics Game  
+# Linguistic Game  
 
 ## Overview 👀
 **Linguistic Game** is a turn-based text-based game where the player navigates through a grid, encounters enemies, and engages in battles using a word-based combat system. The game features dynamic map generation and interactive gameplay, providing a unique experience with each playthrough.
