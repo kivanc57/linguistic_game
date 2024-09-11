@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ling_game:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+    - ./src:/home/ling_game/src
+    - ./config:/home/ling_game/config
+    - ./resources:/home/ling_game/resources
+    command: ["python", "src/main.py"]

@@ -4,6 +4,20 @@ __pycache__/
 *$py.class
 
 # C extensions
+*.so
+*.o
+
+# Folders
+sample/
+tests/
+
+# Others
+LICENSE
+manual.pdf
+README.md
+.gitattributes
+.gitignore
+.github/
 
 # Editor directories and files
 .idea/
@@ -11,18 +25,8 @@ __pycache__/
 *.sublime-project
 *.sublime-workspace
 
-# Test folders
-sample/
-tests/
-
 # Jupyter Notebook
 .ipynb_checkpoints
-
-# PyCharm
-.idea/
-*.iml
-*.iws
-*.ipr
 
 # macOS
 .DS_Store
@@ -31,10 +35,5 @@ tests/
 Thumbs.db
 ehthumbs.db
 
-# VSCode
+#VSCode
 .vscode
-
-# Others
-.gitattributes
-.gitignore
-.github/
