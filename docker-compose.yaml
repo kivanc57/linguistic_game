@@ -6,7 +6,7 @@ services:
       context: .
       dockerfile: Dockerfile
     volumes:
-    - ./src:/home/ling_game/src
-    - ./config:/home/ling_game/config
-    - ./resources:/home/ling_game/resources
+    - ./src:/home/linguistic_game/src
+    - ./config:/home/linguistic_game/config
+    - ./resources:/home/linguistic_game/resources
     command: ["python", "src/main.py"]
